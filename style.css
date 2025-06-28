@@ -4,3 +4,52 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    margin-top: -90px;
+    background-color: #008B8B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 380px;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    width: 350px;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
